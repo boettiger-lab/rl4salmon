@@ -1,0 +1,12 @@
+[project]
+name = "rl4salmon"
+version = "1.0.0"
+
+dependencies = ["gymnasium",
+                "numpy",
+                "matplotlib",
+                "typing",
+                "tensorboard"]
+
+[project.optional-dependencies]
+tests = []
