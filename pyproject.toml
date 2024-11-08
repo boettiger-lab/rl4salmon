@@ -9,4 +9,4 @@ dependencies = ["gymnasium",
                 "tensorboard"]
 
 [project.optional-dependencies]
-tests = []
+tests = ["stable_baselines3"]
